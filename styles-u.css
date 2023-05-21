@@ -15,12 +15,16 @@ body {
 .left-headline {
   grid-column: 1;
   grid-row: 1;
-  background-color: #ed105b;
+  background-color: #D30001;
+  color: white;
+  text-align: center;
   align-self: center;
+  border-radius: 8px;
 }
 .photo {
   height: auto;
   width: 200px;
+  border-radius: 50%;
   margin-bottom: 40px;
 }
 .left-info {
@@ -33,28 +37,31 @@ body {
 .info {
   text-align: center;
   width: 100%;
-  background-color: #f3f3f3;
+  border: 2px solid;
+  border-color: #D30001;
+  border-radius: 8px;
 }
+
 .right-headline {
   grid-column: 2;
   grid-row: 1;
   align-self: center;
+  color: #D30001;
 }
 .right-info {
   grid-column: 2;
   grid-row: 2 / 3;
 }
 h1 {
-  font-family: "Roboto-Thin", sans-serif;
-  font-weight: 100;
-  text-align: center;
-  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 h2 {
-  color: #ed105b;
+  color: #261B23;
 }
 a {
-  color: #0277bd;
+  color: #D30001;
   text-decoration: none;
 }
 ul {
@@ -72,7 +79,7 @@ ul {
   }
   .left-headline {
     order: 1;
-    background-color: #ed105b;
+    background-color: #261B23;
     width: 100%;
   }
   .left-info {
